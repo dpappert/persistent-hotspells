@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning, message="All-NaN slic
 
 ### read NetCDF file
 # should be a time,lat,lon file with (standardised) temperature anomalies
-da = xr.open_dataset(path + 'filename.nc')['variable_name']
+da = xr.open_dataset(path + 'filename.nc')['variable_name'] # adapt to suit your case
 
 
 ##### CLUSTERING FUNCTION ######
