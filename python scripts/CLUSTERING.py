@@ -84,7 +84,7 @@ def clustering(t_agg, trim, x_thresh, d_trunc, dist_metric, recluster=True):
 ### define parameters
 period = range(1959,2023) # define period in years
 t_agg, trim = ['21D', [24,-24]] # ['14D', [27,-28]] or ['7D', [27,-28]]
-# 'trim' is for the removel of dates at edge of MJJAS season, for non-overlapping temporal aggregation to work
+# 'trim' is for the removal of dates at edge of MJJAS season, for non-overlapping temporal aggregation to work / this part will be improved
 x_thresh = .95 # .95, .90, .85 or any other percentile threshold
 d_trunc = .875 # any desired level of event co-occurrence
 
