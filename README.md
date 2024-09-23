@@ -1,6 +1,6 @@
 # Persistent hot spells
 
-This repository contains code relating to the study in the (soon to be) published research article in [name of journal], titled [name of paper]. Additional information can be found in the [ supplementary materials - hyperlink]
+This repository contains code relating to the study in the (preprint) journal article in [name of journal], titled [name of paper]. Additional information can be found in the [ supplementary materials - hyperlink]
 
 It contains the Python code to perform the following:
 
