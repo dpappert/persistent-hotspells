@@ -21,7 +21,7 @@ print('define long and short hotspells for all regions')
 ####################################################
 
 # import excel table with hot spell durations/dates
-# same as output from python script HOTSPELLS.py
+# (same as final output from python script 02_HOTSPELLS.py)
 hotspells = pd.read_excel(path + 'HS_dates.xlsx')
 
 long_spell_list = []
