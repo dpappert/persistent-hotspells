@@ -10,7 +10,7 @@ path = '/specify path to your folder...'
 
 ### read relevant files
 t2m = xr.open_dataset(path + 'filename.nc')['variable_name'] # (standardised) temperature anomalies
-clust = xr.open_dataset(path + 'clusters_filename.nc')['clusters'] # 2D field of regions (final output of CLUSTERING.py)
+clust = xr.open_dataset(path + 'clusters_filename.nc')['clusters'] # 2D field of regions (final output of 01_CLUSTERING.py)
 n_clust = np.max(np.unique(clust)[:-1]).astype(int) # get number of regions
 
 def cluster_data(da, cl, fldmean=True):
