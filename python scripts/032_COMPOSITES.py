@@ -9,7 +9,7 @@ from datetime import timedelta
 from statsmodels.stats.multitest import fdrcorrection
 import multiprocessing as mp
 
-import HS_FUNCTIONS as mf  # ensure this file is in your current working directory
+import HS_FUNCTIONS as hsf  # ensure this file is in your current working directory
 
 
 path = '/specify path to your folder...'
@@ -38,8 +38,8 @@ for i in list(range(0, 12, 2)):
 print('define variable and parameters')
 ####################################################
 
-var = xr.open_dataset(pth + 'filename.nc')['varname'] # import daily anomalies as xarray (time,lon,lat)
-cluster_index = 1 # specify which of the 6 clusters in 'hotspells' you want to work with
+var = xr.open_dataset(path + 'filename.nc')['varname'] # import daily anomalies as xarray (time,lon,lat)
+cluster_index = 1 # specify which of the 6 clusters in 'hotspells' you want to work with, e.g. index = 1 refers to region #2
 varlab = var.name # string containing variable name, only important for file naming
 numMC = 1000 # number of Monte Carlo simulated hotspell sets for the significance test
 
