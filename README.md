@@ -21,13 +21,13 @@ Please report any issues on the GitHub portal.
 
 ### 01_CLUSTERING.py
 
-**Input:** a daily gridded dataset of standardised temperature anomalies (with the land-sea mask already applied for a regionalisation over land).
+**Input:** daily gridded dataset of standardised temperature anomalies (with the land-sea mask already applied for a regionalisation over land).
 Path and file name have to specified.
 
 **Output:** a 2D (lon,lat) NetCDF file with numbered clusters/regions.
 
 ### 02_HOTSPELLS.py
 
-**Input:**
+**Input:** the same gridded temperature dataset used for the clustering & the 2D NetCDF file with the numbered clusters. Path and file name have to specified.
 
-**Output:** 
+**Output:** a table containing the a) durations and b) date ranges of detected hotspells for each region in the cluster xarray.
