@@ -92,5 +92,5 @@ d_trunc = .875 # any desired level of event co-occurrence
 cl_output = clustering(t_agg, trim, x_thresh, d_trunc, 'jaccard', recluster=True)
 
 ### write 2D xarray of cluster regions to netCDF file
-cl_output[0].to_netcdf(path + 'clusters_n' + str(cl_output[1]) + '_' + t_agg + '_p' + str(x_thresh*100) + '_d' + str(d_trunc)[2:] + '.nc')
+cl_output[0].to_netcdf(path + '/clusters_n' + str(cl_output[1]) + '_' + t_agg + '_p' + str(x_thresh*100) + '_d' + str(d_trunc)[2:] + '.nc')
 
