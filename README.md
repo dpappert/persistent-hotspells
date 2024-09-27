@@ -12,6 +12,9 @@ It contains the Python code to perform the following:
 If you use this code in your publication, please cite [Pappert et al. (2024) - hyperlink]
 
 Please report any issues on the GitHub portal.
-
-
+ 
+ 
 ### NB: THIS PAGE IS BEING REGULARLY IMPROVED/UPDATED UNTIL PUBLICATION
+
+
+## Supporting information about python scripts:
