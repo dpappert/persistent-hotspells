@@ -6,7 +6,6 @@ import pandas as pd
 import xarray as xr
 import datetime as dt
 from datetime import timedelta
-from sklearn_extra.cluster import KMedoids
 from statsmodels.stats.multitest import fdrcorrection
 import multiprocessing as mp
 
