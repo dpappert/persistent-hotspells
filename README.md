@@ -21,4 +21,5 @@ Please report any issues on the GitHub portal.
 
 ### 01_CLUSTERING.py
 
-The input for this script is a daily gridded dataset of temperature anomalies
+The input for this script is a daily gridded dataset of standardised temperature anomalies (with land-sea mask already applied for regionalisation over land).
+Path and file name have to specified.
