@@ -8,7 +8,7 @@ import pandas as pd
 import xarray as xr
 import multiprocessing as mp
 
-import HS_FUNCTIONS as mf  # ensure this file is in your current working directory
+import HS_FUNCTIONS as hsf  # ensure this file is in your current working directory
 
 
 path = '/specify path to your folder...'
@@ -47,11 +47,9 @@ def composites_subsampled_100(var):
 
 # Required by Windows:
 if __name__ == '__main__':
-
-    pool = mp.Pool(processes=100, initializer=init_pool_processes)
-
+    pool = mp.Pool(processes=100, initializer=init_pool_processes) # creates a pool of 100 processes that can run tasks in parallel
+    # but you should consider the capabilities of your hardware when deciding on the number of processes to use
     comps100 = pool.map(composites_subsampled_100, [var] * 100)
-
     pool.close()
     pool.join()
 
@@ -62,7 +60,7 @@ comps100[hsf.medoid100(comps100)][0].to_csv(path + '/cl' + str(cluster_index+1) 
 
 
 ####################################################
-print('calculate significance for each 100 composite')
+print('calculate significance for each of the 100 composites')
 ####################################################
 
 start_time = time.time()
@@ -113,4 +111,4 @@ elapsed_time = (end_time - start_time) / 60
 print("Elapsed time:", elapsed_time, "minutes")
 
 (xr.concat(pMat_adj_N, dim='i')).to_netcdf(path + '/cl' + str(cluster_index+1) + '_' + varlab + '_long_sign_all-i.nc')
-
+print('100 (long subsampled) spell significance 2D mask saved')
