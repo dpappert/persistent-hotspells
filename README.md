@@ -25,3 +25,9 @@ Please report any issues on the GitHub portal.
 Path and file name have to specified.
 
 **Output:** a 2D (lon,lat) NetCDF file with numbered clusters/regions.
+
+### 02_HOTSPELLS.py
+
+**Input:**
+
+**Output:** 
