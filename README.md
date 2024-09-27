@@ -21,7 +21,7 @@ Please report any issues on the GitHub portal.
 
 ### 01_CLUSTERING.py
 
-**INPUT:** a daily gridded dataset of standardised temperature anomalies (with the land-sea mask already applied for a regionalisation over land).
+**Input:** a daily gridded dataset of standardised temperature anomalies (with the land-sea mask already applied for a regionalisation over land).
 Path and file name have to specified.
 
-**OUTPUT:** a 2D (lon,lat) NetCDF file with numbered clusters/regions.
+**Output:** a 2D (lon,lat) NetCDF file with numbered clusters/regions.
