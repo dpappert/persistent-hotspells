@@ -6,11 +6,11 @@ It contains the Python code to perform the following:
 
 * regional clustering based on temperature anomalies
 * compute hot spells for different regions
-* compute spell composites and calculate statistical significance
+* compute spell composites and calculate statistical significance of anomaly field
 
 ## Referencing
 If you use this code in your publication, please cite [Pappert et al. (2024) - hyperlink]
 
 Please report any issues on the GitHub portal.
 
-NB: THIS PAGE IS BEING REGULARLY UPDATED UNTIL PUBLICATION
+NB: THIS PAGE IS BEING REGULARLY IMPROVED/UPDATED UNTIL PUBLICATION
