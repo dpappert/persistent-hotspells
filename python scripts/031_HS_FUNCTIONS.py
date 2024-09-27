@@ -11,6 +11,8 @@ import matplotlib.pyplot as plt
 from sklearn_extra.cluster import KMedoids
 from statsmodels.stats.multitest import fdrcorrection
 
+path = '/specify path to your folder...'
+hotspells = pd.read_excel(path + 'HS_dates.xlsx')
 
 long_spell_list = []
 for i in list(range(0, 12, 2)):
