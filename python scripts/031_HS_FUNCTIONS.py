@@ -12,6 +12,16 @@ from sklearn_extra.cluster import KMedoids
 from statsmodels.stats.multitest import fdrcorrection
 
 
+long_spell_list = []
+for i in list(range(0, 12, 2)):
+    cl = hotspells.loc[hotspells.iloc[:, i].between(12, 26), hotspells.columns[i:i+2]]
+    long_spell_list.append(cl)
+    
+short_spell_list = []
+for i in list(range(0, 12, 2)):
+    cl = hotspells.loc[hotspells.iloc[:, i].between(4, 5), hotspells.columns[i:i+2]]
+    short_spell_list.append(cl)
+
 
 def expand_date_range(date_range):
     start, end = date_range.split('/')
