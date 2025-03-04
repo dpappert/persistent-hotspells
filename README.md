@@ -30,16 +30,16 @@ Path and file name have to specified.
 
 **Input:** the same gridded temperature dataset used for the clustering & the 2D NetCDF file with the numbered clusters. Path and file name have to specified.
 
-**Output:** a table containing the a) durations and b) date ranges of detected hotspells for each region in the cluster xarray.
+**Output:** a table containing the a) durations and b) date ranges of detected hot spells for each region in the cluster xarray.
 
 ### 03_COMPOSITES.py
 
-**Input:** 
+**Input:** i) the output of 02_HOTSPELLS.py, i.e. the .csv table of hot spell events for each cluster (duration, date ranges); ii) a gridded NetCDF file containing anomalies of a specific variable (time, lon, lat).
 
-**Output:** 
+**Output:** for all 6 regions for which hot spells were detected, the script calculates the full spell anomaly composites of long and short hot spells for the imported variable AND the corresponding mask of grid cells that are statistically significant at the specified confidence level.
 
 ### 03_COMPOSITES_SUB.py
 
-**Input:** 
+**Input:** i) the output of 02_HOTSPELLS.py, i.e. the .csv table of hot spell events for each cluster (duration, date ranges); ii) a gridded NetCDF file containing anomalies of a specific variable (time, lon, lat).
 
-**Output:** 
+**Output:** for all 6 regions for which hot spells were detected, the subsampled anomaly composites of long hot spells (based on number of short spells) AND the corresponding mask of grid cells that are statistically significant at the specified confidence level.
