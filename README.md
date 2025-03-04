@@ -31,3 +31,15 @@ Path and file name have to specified.
 **Input:** the same gridded temperature dataset used for the clustering & the 2D NetCDF file with the numbered clusters. Path and file name have to specified.
 
 **Output:** a table containing the a) durations and b) date ranges of detected hotspells for each region in the cluster xarray.
+
+### 03_COMPOSITES.py
+
+**Input:** 
+
+**Output:** 
+
+### 03_COMPOSITES_SUB.py
+
+**Input:** 
+
+**Output:** 
