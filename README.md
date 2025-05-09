@@ -12,9 +12,6 @@ It contains the Python code to perform the following:
 If you use this code in your publication, please cite: Pappert, D., Tuel, A., Coumou, D., Vrac, M., and Martius, O.: Long vs. Short: Understanding the dynamics of persistent summer hot spells in Europe, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-2980, 2024.
 
 Please report any issues on the GitHub portal.
- 
- 
-#### *NB: THIS PAGE IS BEING REGULARLY IMPROVED/UPDATED UNTIL PUBLICATION* <br />
 
 
 ## Supporting information about python scripts:
