@@ -9,7 +9,7 @@ It contains the Python code to perform the following:
 * compute long/short spell composites and calculate statistical significance of the anomaly fields
 
 ## Referencing
-If you use this code in your publication, please cite: Pappert, D., Tuel, A., Coumou, D., Vrac, M., and Martius, O.: Long vs. Short: Understanding the dynamics of persistent summer hot spells in Europe, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-2980, 2024.
+If you use this code in your publication, please cite the corresponding article: Pappert, D., Tuel, A., Coumou, D., Vrac, M., and Martius, O.: Long vs. Short: Understanding the dynamics of persistent summer hot spells in Europe, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-2980, 2024.
 
 Please report any issues on the GitHub portal.
 
