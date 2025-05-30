@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Persistent Hot Spells in Europe
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Duncan
+    family-names: Pappert
+    email: duncan.pappert@unibe.ch
+    orcid: 'https://orcid.org/0009-0002-2578-5919'
+    affiliation: >-
+      Institute of Geography & Oeschger Centre for Climate
+      Change Research, University of Bern, Switzerland
