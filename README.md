@@ -1,6 +1,6 @@
 # Persistent hot spells
 
-This repository contains code relating to the study in the (preprint) journal article in Weather and Climate Dynamics (WCD, Copernicus Publications), titled '[Long vs. Short: Understanding the dynamics of persistent summer hot spells in Europe](https://doi.org/10.5194/egusphere-2024-2980)'. Additional information can be found in the [Supplement](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2980/egusphere-2024-2980-supplement.pdf).
+This repository contains code relating to the study in the journal article in Weather and Climate Dynamics (WCD, Copernicus Publications), titled '[Long vs. short: understanding the dynamics of persistent summer hot spells in Europe](https://wcd.copernicus.org/articles/6/769/2025/)'. Additional information can be found in the [Supplement](https://wcd.copernicus.org/articles/6/769/2025/wcd-6-769-2025-supplement.pdf).
 
 It contains the Python code to perform the following:
 
@@ -9,7 +9,7 @@ It contains the Python code to perform the following:
 * compute long/short spell composites and calculate statistical significance of the anomaly fields
 
 ## Referencing
-If you use this code in your publication, please cite the corresponding article: Pappert, D., Tuel, A., Coumou, D., Vrac, M., and Martius, O.: Long vs. Short: Understanding the dynamics of persistent summer hot spells in Europe, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-2980, 2024.
+If you use this code in your publication, please cite the corresponding article: Pappert, D., Tuel, A., Coumou, D., Vrac, M., and Martius, O.: Long vs. short: understanding the dynamics of persistent summer hot spells in Europe, Weather Clim. Dynam., 6, 769–788, https://doi.org/10.5194/wcd-6-769-2025, 2025.
 
 Please report any issues on the GitHub portal.
 
